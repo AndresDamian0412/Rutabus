@@ -10,94 +10,115 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_horizontal"
+        android:gravity="center"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <View
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"/>
-
-        <android.support.v7.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:elevation="10dp"
-            app:cardCornerRadius="100dp">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/_20"
-                android:contentDescription="@string/app_name"/>
-        </android.support.v7.widget.CardView>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:gravity="center"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/admin"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="italic"
-            android:gravity="center"/>
+        android:foregroundGravity="center_vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        >
 
         <LinearLayout
-            android:layout_width="200sp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <View
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"/>
-
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="UselessParent">
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:elevation="10dp"
-                app:cardCornerRadius="19sp">
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:textAlignment="center"
-                android:hint="@string/idwrite"
-                android:maxLength="8"
-                android:importantForAutofill="no"/>
+                app:cardCornerRadius="100dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/_20"
+                    android:contentDescription="@string/app_name"/>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:elevation="10dp"
-                app:cardCornerRadius="19sp">
-                <EditText
+                android:text="@string/app_name"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/admin"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                tools:ignore="TextContrastCheck" />
+
+            <LinearLayout
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"/>
+
+                <android.support.v7.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text"
-                    android:textAlignment="center"
-                    android:hint="@string/passwordwrite"
-                    android:maxLength="8"
-                    android:importantForAutofill="no"/>
-            </android.support.v7.widget.CardView>
+                    android:layout_margin="5dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="19sp"
+                    app:cardBackgroundColor="#FFF">
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="ENTRAR"
-                tools:ignore="HardcodedText" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/transparent"
+                        android:hint="@string/idwrite"
+                        android:importantForAutofill="no"
+                        android:inputType="text"
+                        android:maxLength="8"
+                        android:textAlignment="center"
+                        android:textColorHint="#AFAFAF"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="19sp"
+                    app:cardBackgroundColor="#FFF">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@android:color/transparent"
+                        android:hint="@string/passwordwrite"
+                        android:importantForAutofill="no"
+                        android:inputType="textPassword"
+                        android:maxLength="8"
+                        android:textAlignment="center"
+                        android:textColorHint="#AFAFAF"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+                </android.support.v7.widget.CardView>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30sp"
+                    android:background="@drawable/gradient_buttons"
+                    android:text="ENTRAR"
+                    android:textColor="#00838F"
+                    tools:ignore="HardcodedText,TextContrastCheck" />
+
+            </LinearLayout>
 
         </LinearLayout>
+
     </LinearLayout>
 
 
