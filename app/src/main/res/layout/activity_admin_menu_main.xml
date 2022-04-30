@@ -44,6 +44,8 @@
                     tools:ignore="ContentDescription" />
             </LinearLayout>
 
+
+
         </RelativeLayout>
 
         <GridLayout
@@ -64,6 +66,7 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:src="@drawable/red_point_1_icon"
+                    android:background="@drawable/gradient_items_images_menus"
                     tools:ignore="ContentDescription"/>
 
                 <TextView
@@ -83,7 +86,8 @@
                 <ImageView
                     android:layout_width="90dp"
                     android:layout_height="90dp"
-                    android:src="@drawable/red_point_1_icon"
+                    android:src="@drawable/red_points_1_icon"
+                    android:background="@drawable/gradient_items_images_menus"
                     tools:ignore="ContentDescription"/>
 
                 <TextView
@@ -104,6 +108,7 @@
                     android:layout_width="90dp"
                     android:layout_height="90dp"
                     android:src="@drawable/driver_icon"
+                    android:background="@drawable/gradient_items_images_menus"
                     tools:ignore="ContentDescription"/>
 
                 <TextView

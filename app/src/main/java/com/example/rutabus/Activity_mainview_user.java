@@ -28,7 +28,7 @@ public class Activity_mainview_user extends AppCompatActivity implements SearchV
         return false;
     }
 
-    public void search (View view){
+    private void search (View view){
         //if(et_search.getText().toString().isEmpty()){
           //  Toast.makeText(getApplicationContext(),"Digite una ruta para la búsqueda",Toast.LENGTH_SHORT).show();
         //}else{

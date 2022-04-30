@@ -5,13 +5,15 @@
       <map>
         <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/drawable/borders_icons_menus.xml" value="0.1015" />
         <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/drawable/gradient_buttons.xml" value="0.25" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/drawable/gradient_items_images_menus.xml" value="0.1935" />
         <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/drawable/gradient_items_menu.xml" value="0.2595" />
         <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/drawable/gradient_layout.xml" value="0.18" />
         <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_admin_login_.xml" value="0.33" />
-        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_admin_menu_main.xml" value="0.25" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_admin_menu_main.xml" value="0.75" />
         <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_login.xml" value="0.1762917933130699" />
         <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_main.xml" value="0.14285714285714285" />
-        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_mainview_user.xml" value="0.33" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_mainview_user.xml" value="0.18" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_searchview_user.xml" value="0.18541666666666667" />
       </map>
     </option>
   </component>
