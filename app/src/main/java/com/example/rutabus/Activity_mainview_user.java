@@ -28,11 +28,12 @@ public class Activity_mainview_user extends AppCompatActivity implements SearchV
         return false;
     }
 
-    private void search (View view){
+    public void search_ruta(View view) {
         if(et_search.getText().toString().isEmpty()){
             Toast.makeText(getApplicationContext(),"Digite una ruta para la búsqueda",Toast.LENGTH_SHORT).show();
         }else{
             Intent i = new Intent(this,Activity_searchview_user.class);
+            i.putExtra("dato",et_search.getText().toString());
             startActivity(i);
         }
     }

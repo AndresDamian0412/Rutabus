@@ -9,57 +9,72 @@
     android:textAlignment="center"
     tools:context=".Activity_mainview_user">
 
-    <ImageButton
-        android:id="@+id/ib_search"
-        android:layout_width="60dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="26dp"
-        android:adjustViewBounds="true"
-        android:background="@drawable/gradient_items_images_menus"
-        android:contentDescription="@string/buscaruta"
-        android:onClick="search"
-        android:scaleType="centerInside"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/et_search"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/search"
-        tools:ignore="DuplicateSpeakableTextCheck" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/iv_mapa"
-        android:layout_width="323dp"
-        android:layout_height="474dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="63dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="129dp"
-        android:background="@drawable/gradient_items_menu"
-        android:contentDescription="@string/mapa_de_ciudad_valles"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ib_search"
-        app:srcCompat="@drawable/mapa_mainview_user"
-        tools:ignore="ImageContrastCheck" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/et_search"
-        android:layout_width="290dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="21dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="14dp"
-        android:background="@color/white"
-        android:ems="10"
-        android:hint="@string/buscaruta"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        android:textColor="@color/black"
-        android:textColorHint="#78909C"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/ib_search"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <android.support.v7.widget.CardView
+                android:layout_width="315dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#FFFFFF"
+                app:cardCornerRadius="19sp"
+                android:layout_marginVertical="12dp"
+                android:layout_marginLeft="10dp">
+
+                <EditText
+                    android:id="@+id/et_search"
+                    android:layout_width="290dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginVertical="7dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:hint="@string/buscaruta"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textColorHint="#78909C"
+                    android:textSize="20sp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
+            </android.support.v7.widget.CardView>
+
+            <ImageButton
+                android:id="@+id/ib_search"
+                android:layout_width="60dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="26dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/gradient_items_images_menus"
+                android:contentDescription="@string/buscaruta"
+                android:onClick="search_ruta"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/search"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_mapa"
+            android:layout_width="323dp"
+            android:layout_height="474dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="129dp"
+            android:background="@drawable/gradient_items_menu"
+            android:contentDescription="@string/mapa_de_ciudad_valles"
+            app:srcCompat="@drawable/mapa_mainview_user"
+            tools:ignore="ImageContrastCheck" />
+
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
