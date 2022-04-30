@@ -13,4 +13,5 @@
     <string name="idwrite">ID</string>
     <string name="passwordwrite">Contraseña</string>
     <string name="buscaruta">Digita el nombre de una ruta…</string>
+    <string name="mapa_de_ciudad_valles">Mapa de Ciudad Valles</string>
 </resources>
