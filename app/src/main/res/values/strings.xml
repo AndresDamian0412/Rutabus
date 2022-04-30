@@ -18,4 +18,5 @@
     <string name="conductores_text">Conductores</string>
     <string name="mapa_de_ciudad_valles">mapa_de_ciudad_valles</string>
     <string name="btn_back">btn_back</string>
+    <string name="driver">Conductor</string>
 </resources>
