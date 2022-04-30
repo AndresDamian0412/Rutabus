@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MenuTheme.AdminMenu" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/gradient_items_menu</item>
+    </style>
+
+    <style name="TextTheme.AdminMenu" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">#FFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

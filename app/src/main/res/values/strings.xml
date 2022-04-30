@@ -13,4 +13,7 @@
     <string name="idwrite">ID</string>
     <string name="passwordwrite">Contraseña</string>
     <string name="buscaruta">Digita el nombre de una ruta…</string>
+    <string name="paradas_text">Paradas</string>
+    <string name="rutas_text">Rutas</string>
+    <string name="conductores_text">Conductores</string>
 </resources>

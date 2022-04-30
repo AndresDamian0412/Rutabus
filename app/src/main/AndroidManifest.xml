@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".AdminMenuMain"
+            android:exported="false" />
+        <activity
             android:name=".AdminLogin"
             android:exported="true"
             android:label="@string/app_name"
