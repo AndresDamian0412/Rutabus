@@ -1,5 +1,6 @@
 package com.example.rutabus;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.SearchView;
@@ -28,10 +29,11 @@ public class Activity_mainview_user extends AppCompatActivity implements SearchV
     }
 
     public void search (View view){
-        if(et_search.getText().toString().isEmpty()){
-            Toast.makeText(getApplicationContext(),"Digite una ruta para la búsqueda",Toast.LENGTH_SHORT).show();
-        }else{
-            
-        }
+        //if(et_search.getText().toString().isEmpty()){
+          //  Toast.makeText(getApplicationContext(),"Digite una ruta para la búsqueda",Toast.LENGTH_SHORT).show();
+        //}else{
+            Intent i = new Intent(this,Activity_searchview_user.class);
+            startActivity(i);
+        //}
     }
 }

@@ -16,4 +16,5 @@
     <string name="paradas_text">Paradas</string>
     <string name="rutas_text">Rutas</string>
     <string name="conductores_text">Conductores</string>
+    <string name="mapa_de_ciudad_valles">mapa_de_ciudad_valles</string>
 </resources>
