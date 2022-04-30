@@ -29,11 +29,11 @@ public class Activity_mainview_user extends AppCompatActivity implements SearchV
     }
 
     private void search (View view){
-        //if(et_search.getText().toString().isEmpty()){
-          //  Toast.makeText(getApplicationContext(),"Digite una ruta para la búsqueda",Toast.LENGTH_SHORT).show();
-        //}else{
+        if(et_search.getText().toString().isEmpty()){
+            Toast.makeText(getApplicationContext(),"Digite una ruta para la búsqueda",Toast.LENGTH_SHORT).show();
+        }else{
             Intent i = new Intent(this,Activity_searchview_user.class);
             startActivity(i);
-        //}
+        }
     }
 }
