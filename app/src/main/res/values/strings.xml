@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ruta-Bus</string>
+    <string name="app_name">UrbaBus</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

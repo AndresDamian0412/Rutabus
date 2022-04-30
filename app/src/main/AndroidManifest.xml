@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-
+        <activity
+            android:name=".MainLogin"
+            android:exported="false" />
         <activity android:name=".AdminMenuMain" />
         <activity android:name=".Activity_mainview_user" />
         <activity android:name=".Activity_searchview_user" />
