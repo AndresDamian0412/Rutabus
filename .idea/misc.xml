@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/StudioProjects/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1285140562248996" />
-        <entry key="..\:/StudioProjects/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1287568306010929" />
-        <entry key="..\:/StudioProjects/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
-        <entry key="..\:/StudioProjects/app/src/main/res/layout/activity_mainview_user.xml" value="0.25" />
-        <entry key="..\:/StudioProjects/app/src/main/res/menu/options_menu.xml" value="0.2" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/drawable/borders_icons_menus.xml" value="0.1015" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/drawable/gradient_buttons.xml" value="0.25" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/drawable/gradient_items_menu.xml" value="0.2595" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/drawable/gradient_layout.xml" value="0.18" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_admin_login_.xml" value="0.33" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_admin_menu_main.xml" value="0.25" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_login.xml" value="0.1762917933130699" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_main.xml" value="0.14285714285714285" />
+        <entry key="..\:/FlutterFiles/Projects/Rutabus/app/src/main/res/layout/activity_mainview_user.xml" value="0.33" />
       </map>
     </option>
   </component>
@@ -16,5 +20,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
