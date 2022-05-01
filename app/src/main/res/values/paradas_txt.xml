@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="parada_1">Parada 1</string>
+    <string name="parada_2">Parada 2</string>
+    <string name="parada_3">Parada 3</string>
+    <string name="parada_4">Parada 4</string>
+    <string name="parada_5">Parada 5</string>
+    <string name="parada_6">Parada 6</string>
+</resources>
