@@ -35,8 +35,9 @@ public class UserSearch extends AppCompatActivity {
         listaRutas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(adapterView.getContext(),
-                        "Elegiste -> "+adapterView.getItemAtPosition(i).toString(),Toast.LENGTH_SHORT).show();
+                Intent intento = new Intent(getApplicationContext(),UserRoute.class);
+                intento.putExtra("extra",adapterView.getItemAtPosition(i).toString());
+                startActivity(intento);
             }
         });
     }
