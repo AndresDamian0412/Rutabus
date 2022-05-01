@@ -25,7 +25,7 @@
                 android:backgroundTint="#FFFFFF"
                 app:cardCornerRadius="19sp"
                 android:layout_marginVertical="12dp"
-                android:layout_marginLeft="10dp">
+                android:layout_marginStart="10dp">
 
                 <EditText
                     android:id="@+id/et_search"
