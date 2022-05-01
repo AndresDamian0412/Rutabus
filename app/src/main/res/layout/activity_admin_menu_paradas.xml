@@ -9,7 +9,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
@@ -58,7 +57,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -81,6 +82,39 @@
                     android:background="@drawable/gradient_buttons"
                     android:text="REGISTRAR"
                     tools:ignore="HardcodedText,TextContrastCheck" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/black">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parada_1"
+                    style="@style/TextTheme.AdminMenu"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="30dp"
+                    tools:ignore="RelativeOverlap" />
+                <ImageView
+                    android:id="@+id/delete_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/arrow_white_back_icon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/edit_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_toStartOf="@id/delete_btn"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/arrow_white_back_icon"
+                    tools:ignore="ContentDescription" />
             </RelativeLayout>
 
 
