@@ -11,13 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".MainLogin"
+            android:name=".DriverLogin"
+            android:exported="false" />
+        <activity
+            android:name=".admin_menu_paradas"
             android:exported="false" />
         <activity android:name=".AdminMenuMain" />
+        <activity android:name=".AdminLogin" />
         <activity android:name=".Activity_mainview_user" />
         <activity android:name=".Activity_searchview_user" />
         <activity
-            android:name=".AdminLogin"
+            android:name=".MainLogin"
             android:exported="true"
             android:label="@string/app_name"
             tools:ignore="RedundantLabel">
