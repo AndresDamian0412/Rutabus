@@ -14,7 +14,7 @@
             android:name=".DriverLogin"
             android:exported="false" />
         <activity
-            android:name=".admin_menu_paradas"
+            android:name=".AdminMenuParadas"
             android:exported="false" />
         <activity android:name=".AdminMenuMain" />
         <activity android:name=".AdminLogin" />
