@@ -18,7 +18,7 @@ public class UserMain extends AppCompatActivity {
     }
 
     public void busqueda (View view){
-        Intent i = new Intent(this,Activity_searchview_user.class);
+        Intent i = new Intent(this,UserSearch.class);
         startActivity(i);
     }
 }
