@@ -24,7 +24,7 @@ public class MainLogin extends AppCompatActivity {
         AdminBtn.setOnClickListener(view -> switchAdminView());
     }
     private void switchUserView(){
-        Intent switchActivity = new Intent(this, Activity_mainview_user.class);
+        Intent switchActivity = new Intent(this, UserMain.class);
         startActivity(switchActivity);
     }
     private void switchDriverView(){
