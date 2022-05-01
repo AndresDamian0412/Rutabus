@@ -58,7 +58,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/white"
             android:orientation="vertical">
 
             <RelativeLayout
@@ -86,13 +85,14 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:background="@color/black">
+                android:background="@drawable/design_items_layouts">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/parada_1"
                     style="@style/TextTheme.AdminMenu"
+                    android:textColor="@color/black"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="30dp"
@@ -101,7 +101,7 @@
                     android:id="@+id/delete_btn"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/arrow_white_back_icon"
+                    android:src="@drawable/delete_black_icon"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:layout_marginEnd="10dp"
@@ -113,7 +113,113 @@
                     android:layout_height="30dp"
                     android:layout_toStartOf="@id/delete_btn"
                     android:layout_centerVertical="true"
-                    android:src="@drawable/arrow_white_back_icon"
+                    android:src="@drawable/edit_black_icon"
+                    android:layout_marginEnd="20dp"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/design_items_layouts">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parada_2"
+                    style="@style/TextTheme.AdminMenu"
+                    android:textColor="@color/black"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="30dp"
+                    tools:ignore="RelativeOverlap" />
+                <ImageView
+                    android:id="@+id/delete2_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/delete_black_icon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/edit2_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_toStartOf="@id/delete2_btn"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/edit_black_icon"
+                    android:layout_marginEnd="20dp"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/design_items_layouts">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parada_3"
+                    style="@style/TextTheme.AdminMenu"
+                    android:textColor="@color/black"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="30dp"
+                    tools:ignore="RelativeOverlap" />
+                <ImageView
+                    android:id="@+id/delete3_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/delete_black_icon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/edit3_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_toStartOf="@id/delete3_btn"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/edit_black_icon"
+                    android:layout_marginEnd="20dp"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/design_items_layouts">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parada_4"
+                    style="@style/TextTheme.AdminMenu"
+                    android:textColor="@color/black"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="30dp"
+                    tools:ignore="RelativeOverlap" />
+                <ImageView
+                    android:id="@+id/delete4_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/delete_black_icon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/edit4_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_toStartOf="@id/delete4_btn"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/edit_black_icon"
+                    android:layout_marginEnd="20dp"
                     tools:ignore="ContentDescription" />
             </RelativeLayout>
 
