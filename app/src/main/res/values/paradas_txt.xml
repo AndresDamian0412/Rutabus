@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="parada_1">Parada 1</string>
-    <string name="parada_2">Parada 2</string>
-    <string name="parada_3">Parada 3</string>
-    <string name="parada_4">Parada 4</string>
-    <string name="parada_5">Parada 5</string>
-    <string name="parada_6">Parada 6</string>
+    <string name="parada_1">Glorieta</string>
+    <string name="parada_2">Office Depot</string>
+    <string name="parada_3">Aurrerá</string>
+    <string name="parada_4">Soriana Valle Alto</string>
+    <string name="parada_5">Fruteria Infonavit</string>
+    <string name="parada_6">Cobach 06</string>
+    <string name="parada_7">La Brocha</string>
+    <string name="parada_8">Tecnológico</string>
+
+    <string name="ruta_1">TEC-VALLE ALTO</string>
+    <string name="ruta_2">TEC-PASR</string>
+
+    <string name="driver_1">Conductor 1</string>
+    <string name="driver_2">Conductor 2</string>
+    <string name="driver_3">Conductor 3</string>
+    <string name="driver_4">Conductor 4</string>
+
 </resources>

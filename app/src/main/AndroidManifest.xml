@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".AdminMenuDrivers"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMenuRutas"
+            android:exported="false" />
+        <activity
             android:name=".UserRoute"
             android:exported="false" />
         <activity
