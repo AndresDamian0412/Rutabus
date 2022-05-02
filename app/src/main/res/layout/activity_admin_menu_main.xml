@@ -65,6 +65,7 @@
             android:useDefaultMargins="true">
 
             <LinearLayout
+                android:id="@+id/paradas_btn"
                 android:layout_width="190dp"
                 android:layout_height="230dp"
                 style="@style/MenuTheme.AdminMenu"
@@ -86,6 +87,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/rutas_btn"
                 android:layout_width="190dp"
                 android:layout_height="230dp"
                 style="@style/MenuTheme.AdminMenu"
@@ -107,6 +109,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/drivers_btn"
                 android:layout_width="190dp"
                 android:layout_height="230dp"
                 style="@style/MenuTheme.AdminMenu"
