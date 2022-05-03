@@ -24,4 +24,5 @@
     <string name="todo">TODO</string>
     <string name="autobus_no_125">Autobus No. 125</string>
     <string name="autobus_no_220">Autobus No. 220</string>
+    <string name="ejemplo_parada">Parada 1</string>
 </resources>
