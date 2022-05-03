@@ -27,26 +27,28 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="15dp"
                 android:textAlignment="center"
-                android:textSize="35sp"
-                android:textColor="#515151"/>
+                android:textSize="40sp"
+                android:textColor="#2F2F33"/>
         </android.support.v7.widget.CardView>
 
         <TextView
             android:id="@+id/tv_parada"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="25dp"
             android:text="@string/ejemplo_parada"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="25sp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <android.support.v7.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="400dp"
             app:cardCornerRadius="20sp"
-            app:cardBackgroundColor="@drawable/gradient_items_menu">
+            app:cardBackgroundColor="@drawable/gradient_items_menu"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp">
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -55,6 +57,63 @@
                 android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/mapa_mainview_user"
                 tools:ignore="ImageContrastCheck" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="10dp"
+            app:cardBackgroundColor="@color/white">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ejem_siguiente"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="10dp"
+            app:cardBackgroundColor="#C0CA33">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ejem_aviso"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20sp"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginTop="40dp"
+            app:cardBackgroundColor="#C62828">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ejem_terminaRuta"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
         </android.support.v7.widget.CardView>
 
     </LinearLayout>
