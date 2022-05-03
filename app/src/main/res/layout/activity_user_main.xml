@@ -19,61 +19,71 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <android.support.v7.widget.CardView
-                android:layout_width="315dp"
-                android:layout_height="60dp"
-                android:backgroundTint="#FFFFFF"
-                app:cardCornerRadius="19sp"
-                android:layout_marginVertical="12dp"
-                android:layout_marginStart="10dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
-                <EditText
-                    android:id="@+id/et_search"
-                    android:layout_width="290dp"
-                    android:layout_height="48dp"
-                    android:layout_marginStart="21dp"
-                    android:layout_marginTop="18dp"
-                    android:layout_marginEnd="14dp"
-                    android:layout_marginVertical="7dp"
-                    android:background="@color/white"
-                    android:ems="10"
-                    android:hint="@string/buscaruta"
-                    android:importantForAutofill="no"
-                    android:inputType="textPersonName"
-                    android:textColor="@color/black"
-                    android:textColorHint="#78909C"
-                    android:textSize="20sp"
+                <android.support.v7.widget.CardView
+                    android:layout_width="315dp"
+                    android:layout_height="60dp"
+                    android:layout_marginVertical="12dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="#FFFFFF"
+                    app:cardCornerRadius="19sp">
+
+                    <EditText
+                        android:id="@+id/et_search"
+                        android:layout_width="290dp"
+                        android:layout_height="48dp"
+                        android:layout_marginVertical="7dp"
+                        android:layout_marginStart="21dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="14dp"
+                        android:background="@color/white"
+                        android:ems="10"
+                        android:hint="@string/buscaruta"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black"
+                        android:textColorHint="#78909C"
+                        android:textSize="20sp"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+                </android.support.v7.widget.CardView>
+
+                <ImageButton
+                    android:id="@+id/ib_search"
+                    android:layout_width="60dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="26dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/gradient_items_images_menus"
+                    android:contentDescription="@string/buscaruta"
+                    android:onClick="busqueda"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/search"
                     tools:ignore="DuplicateSpeakableTextCheck" />
-            </android.support.v7.widget.CardView>
 
-            <ImageButton
-                android:id="@+id/ib_search"
-                android:layout_width="60dp"
-                android:layout_height="49dp"
-                android:layout_marginStart="14dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="26dp"
-                android:adjustViewBounds="true"
-                android:background="@drawable/gradient_items_images_menus"
-                android:contentDescription="@string/buscaruta"
-                android:onClick="busqueda"
-                android:scaleType="centerInside"
-                app:srcCompat="@drawable/search"
-                tools:ignore="DuplicateSpeakableTextCheck" />
+            </TableRow>
+
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/iv_mapa"
-            android:layout_width="323dp"
-            android:layout_height="474dp"
-            android:layout_marginStart="44dp"
-            android:layout_marginTop="63dp"
-            android:layout_marginEnd="44dp"
-            android:layout_marginBottom="129dp"
-            android:background="@drawable/gradient_items_menu"
-            android:contentDescription="@string/mapa_de_ciudad_valles"
-            app:srcCompat="@drawable/mapa_mainview_user"
-            tools:ignore="ImageContrastCheck" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_mapa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient_items_menu"
+                android:contentDescription="@string/mapa_de_ciudad_valles"
+                app:srcCompat="@drawable/mapa_mainview_user"
+                tools:ignore="ImageContrastCheck" />
+        </TableRow>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
