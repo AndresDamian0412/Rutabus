@@ -22,7 +22,7 @@ public class DriverLogin extends AppCompatActivity {
         backButton.setOnClickListener(view -> finish());
     }
     private void switchDriverMenu(){
-        Intent switchActivity = new Intent(this, AdminMenuMain.class);
+        Intent switchActivity = new Intent(this, DriverAllRoutes.class);
         startActivity(switchActivity);
     }
 }

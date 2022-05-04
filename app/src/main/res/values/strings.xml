@@ -28,4 +28,7 @@
     <string name="ejem_siguiente">Siguiente</string>
     <string name="ejem_aviso">Aviso</string>
     <string name="ejem_terminaRuta">Terminar ruta</string>
+    <string name="activar_ruta">Activar ruta</string>
+    <string name="paradas_de_esta_ruta">Paradas de esta ruta:</string>
+    <string name="rutas_designadas">Rutas designadas</string>
 </resources>
