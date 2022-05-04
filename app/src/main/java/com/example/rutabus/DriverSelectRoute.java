@@ -17,7 +17,7 @@ public class DriverSelectRoute extends AppCompatActivity {
 
         tv_ruta = (TextView) findViewById(R.id.texto_ruta);
         tv_ruta.setText(getIntent().getStringExtra("extra"));
-        btn = (Button) findViewById(R.id.btn_activar);
+        btn = (Button) findViewById(R.id.activar_btn);
 
         btn.setOnClickListener(view -> switchActiveRoute());
     }

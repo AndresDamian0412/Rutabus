@@ -14,11 +14,9 @@
             android:name=".DriverAllRoutes"
             android:exported="false" />
         <activity
-            android:name=".DriverSelectRoute"
-            android:exported="false" />
+            android:name=".DriverSelectRoute"/>
         <activity
-            android:name=".DriverActiveRoute"
-            android:exported="false" />
+            android:name=".DriverActiveRoute"/>
         <activity
             android:name=".AdminMenuDrivers"
             android:exported="false" />
